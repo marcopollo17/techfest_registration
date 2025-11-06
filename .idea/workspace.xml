@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f97516b-4d64-4635-a796-cbea280bea2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/techfest_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/techfest_registration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/techfest_registration.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/techfest_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/techfest_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762399819332</updated>
-      <workItem from="1762399820337" duration="2459000" />
+      <workItem from="1762399820337" duration="4387000" />
     </task>
     <servers />
   </component>
@@ -72,6 +70,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/techfest_registration$techfest_registration.coverage" NAME="techfest_registration Coverage Results" MODIFIED="1762401989300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/techfest_registration$techfest_registration.coverage" NAME="techfest_registration Coverage Results" MODIFIED="1762404241514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
