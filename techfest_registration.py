@@ -25,3 +25,20 @@ else:
     else:
         tracks_list = ", ".join(unique_tracks)
         print('\nTracks offered in this event:', tracks_list)
+#TASK 4 - DUPLICATE NAME DETECTION
+    found = set()
+    dup = set()
+    for participant in participants:
+        if participant['name'] in found:
+            dup.add(participant['name'])
+        else:
+            found.add(participant['name'])
+
+    if dup:
+        if len(dup) == 1:
+            name = next(iter(dup))
+            print(f'\nDuplicate name Found: {name}')
+        else:
+            print("\nDuplicate names Found:", ", ".join(dup))
+    else:
+        print('\nNo duplicate names.')
