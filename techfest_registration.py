@@ -42,3 +42,12 @@ else:
             print("\nDuplicate names Found:", ", ".join(dup))
     else:
         print('\nNo duplicate names.')
+#TASK 5 - TRACK SUMMARY REPORT
+    summary = {}
+    for participant in participants:
+        track = participant['track']
+        summary[track] = summary.get(track, 0) + 1
+
+    print('\nParticipant per track:')
+    for track, count in summary.items():
+        print(f'{track}: {count}')
